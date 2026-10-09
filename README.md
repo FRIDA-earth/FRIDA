@@ -14,7 +14,7 @@ from the structure itself.
 | | |
 |---|---|
 | **Try it live** | **[frida.earth](https://frida.earth/)** — the interactive learning environment. Adjust policies and scenarios in your browser and watch the feedbacks play out. |
-| **Documentation** | **[metno.github.io/WorldTransFRIDA](https://metno.github.io/WorldTransFRIDA/)** — module overviews plus a full reference for every stock, flow, and parameter. |
+| **Documentation** | **[https://frida-earth.github.io/FRIDA](https://frida-earth.github.io/FRIDA/)** — module overviews plus a full reference for every stock, flow, and parameter. |
 | **Project** | [WorldTrans](https://worldtrans-horizon.eu/) |
 
 ## About the model
@@ -48,7 +48,7 @@ to a policy rather than having an outcome imposed on it.
 
 The model is organised into nine top-level modules, each documented with a conceptual overview
 and a complete variable reference on the
-[documentation site](https://metno.github.io/WorldTransFRIDA/):
+[documentation site](https://frida-earth.github.io/FRIDA):
 
 Climate · Demographics · Economy · Energy · Land Use & Agriculture · Resources ·
 Behavioral Change · Behavioral Choices · Government Regulations
@@ -95,7 +95,7 @@ model as a whole. All papers are open access, with BibTeX/RIS export.
 
 ## Documentation website
 
-**<https://metno.github.io/WorldTransFRIDA/>** — the published FRIDA documentation: a
+**<https://frida-earth.github.io/FRIDA/>** — the published FRIDA documentation: a
 paper-grounded overview of each module, plus a complete, auto-generated reference for every
 stock, flow, and parameter in the model.
 
@@ -103,8 +103,8 @@ Use the version selector in the site header to switch between model versions:
 
 | Version | Branch | Direct link |
 |---|---|---|
-| **v3.1** (current) | `main` | <https://metno.github.io/WorldTransFRIDA/main/> |
-| v2.1 | `v2` | <https://metno.github.io/WorldTransFRIDA/v2/> |
+| **v3.1** (current) | `main` | <https://frida-earth.github.io/FRIDA/main/> |
+| v2.1 | `v2` | <https://frida-earth.github.io/FRIDA/v2/> |
 
 The site is built with [MkDocs](https://www.mkdocs.org/) + [Material](https://squidfunk.github.io/mkdocs-material/)
 and generated from the model files (`FRIDA.stmx`, `FRIDA_Modules/*.itmx`) and authored module
@@ -177,7 +177,7 @@ edits to them are overwritten on the next build.
  
 ## Calibration Data
 
-See the Documentation tab in the <a href="https://github.com/metno/WorldTransFRIDA/blob/main/Data/Calibration%20Data.csv">Calibration Data file</a>
+See the Documentation tab in the <a href="https://github.com/FRIDA-earth/FRIDA/blob/main/Data/Calibration%20Data.csv">Calibration Data file</a>
  
 ## Standalone Climate Model
 
