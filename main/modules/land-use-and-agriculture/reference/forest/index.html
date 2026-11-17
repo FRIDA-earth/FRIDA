@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
@@ -31,10 +31,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -5531,7 +5531,7 @@
 <h2 id="auxiliaries-parameters">Auxiliaries &amp; parameters<a class="headerlink" href="#auxiliaries-parameters" title="Permanent link">&para;</a></h2>
 <h3 id="forest-tree-net-primary-production">Forest.tree_net_primary_production<a class="headerlink" href="#forest-tree-net-primary-production" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> GtC/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> GtC/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>MAXSOFT(Forest.tree_net_primary_production_in_1750[Climate_Units.selected_climate_case] + Forest.change_in_tree_net_primary_production_from_CO2+Forest.change_in_tree_net_primary_production_from_STA+Forest.change_in_tree_net_primary_production_from_STA_squared, Forest.tree_net_primary_production_in_1750[Climate_Units.selected_climate_case]*Forest.minimum_fraction_of_1980_tree_primary_production,Forest.tolerance_for_net_primary_production )
 </code></pre></div></p>
@@ -5651,13 +5651,13 @@
 </code></pre></div></p>
 <h3 id="forest-change-in-tree-net-primary-production-from-co2">Forest.change_in_tree_net_primary_production_from_CO2<a class="headerlink" href="#forest-change-in-tree-net-primary-production-from-co2" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> GtC/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> GtC/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>Forest.tree_net_primary_production_in_1750[Climate_Units.selected_climate_case]*Forest.effect_of_CO2_on_tree_net_primary_production
 </code></pre></div></p>
 <h3 id="forest-change-in-tree-net-primary-production-from-sta">Forest.change_in_tree_net_primary_production_from_STA<a class="headerlink" href="#forest-change-in-tree-net-primary-production-from-sta" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> GtC/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> GtC/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>Forest.tree_net_primary_production_in_1750[Climate_Units.selected_climate_case]*Forest.effect_of_STA_on_tree_net_primary_production
 </code></pre></div></p>
@@ -5777,7 +5777,7 @@
 </code></pre></div></p>
 <h3 id="forest-change-in-tree-net-primary-production-from-sta-squared">Forest.change_in_tree_net_primary_production_from_STA_squared<a class="headerlink" href="#forest-change-in-tree-net-primary-production-from-sta-squared" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> GtC/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> GtC/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>Forest.tree_net_primary_production_in_1750[Climate_Units.selected_climate_case]*Forest.effect_of_STA_squared_on_tree_net_primary_production
 </code></pre></div></p>
@@ -5897,7 +5897,7 @@
 </code></pre></div></p>
 <h3 id="forest-combined-change-in-tree-net-primary-production-from-sta">Forest.combined_change_in_tree_net_primary_production_from_STA<a class="headerlink" href="#forest-combined-change-in-tree-net-primary-production-from-sta" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> GtC/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> GtC/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>Forest.change_in_tree_net_primary_production_from_STA+Forest.change_in_tree_net_primary_production_from_STA_squared
 </code></pre></div></p>
@@ -5909,7 +5909,7 @@
 </code></pre></div></p>
 <h3 id="forest-tree-net-primary-production-in-1750">Forest.tree_net_primary_production_in_1750<a class="headerlink" href="#forest-tree-net-primary-production-in-1750" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span> <span class="tag tag-assumption" title="A value set by modeller judgement rather than fit to data.">Assumption</span></p>
-<p><strong>Units:</strong> GtC/(Mha<em>year)  ·  </em><em>Dimensions:</em>* ClimateCase</p>
+<p><strong>Units:</strong> GtC/(Mha*year)  ·  <strong>Dimensions:</strong> ClimateCase</p>
 <blockquote>
 <p>https://doi.org/10.1038/nature07276 (0.00545)</p>
 <p>https://doi.org/10.1073/pnas.0704243104 (0.0072)</p>
@@ -6883,10 +6883,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
     
   </body>

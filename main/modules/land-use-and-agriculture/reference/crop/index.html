@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
@@ -31,10 +31,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -5617,7 +5617,7 @@ Food and Agriculture Organization of the United Nations (2023)</p>
 </code></pre></div></p>
 <h3 id="crop-crop-yield">Crop.crop_yield<a class="headerlink" href="#crop-crop-yield" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> PCal/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> PCal/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Crop.initial_crop_yield + Crop.change_in_crop_yield_from_fertilizer_use+Crop.change_in_crop_yield_from_soil_carbon+Crop.change_in_crop_yield_from_irrigation + Crop.change_in_crop_yield_from_climate
 </code></pre></div></p>
@@ -6070,7 +6070,7 @@ Food and Agriculture Organization of the United Nations (2023)</p>
 </code></pre></div></p>
 <h3 id="crop-fertilizer-used-per-unit-of-crop-production">Crop.fertilizer_used_per_unit_of_crop_production<a class="headerlink" href="#crop-fertilizer-used-per-unit-of-crop-production" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> Million<em>tN/PCal  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> Million*tN/PCal  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>Crop.fertilizer_use/Crop.crop_production
 </code></pre></div></p>
@@ -6190,7 +6190,7 @@ Food and Agriculture Organization of the United Nations (2023)</p>
 </code></pre></div></p>
 <h3 id="crop-change-in-crop-yield-from-climate">Crop.change_in_crop_yield_from_climate<a class="headerlink" href="#crop-change-in-crop-yield-from-climate" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> PCal/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> PCal/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>IF (Climate.switch_landuse_damage =0) AND TIME &gt; Climate.climate_impact_stoptime THEN
 <a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>PREVIOUS(SELF, 0)
@@ -6199,7 +6199,7 @@ Food and Agriculture Organization of the United Nations (2023)</p>
 </code></pre></div></p>
 <h3 id="crop-change-in-crop-yield-from-soil-carbon">Crop.change_in_crop_yield_from_soil_carbon<a class="headerlink" href="#crop-change-in-crop-yield-from-soil-carbon" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> PCal/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> PCal/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>Crop.initial_crop_yield*Crop.effect_of_soil_carbon_on_crop_yield
 </code></pre></div></p>
@@ -6229,13 +6229,13 @@ Food and Agriculture Organization of the United Nations (2023)</p>
 </code></pre></div></p>
 <h3 id="crop-change-in-crop-yield-from-irrigation">Crop.change_in_crop_yield_from_irrigation<a class="headerlink" href="#crop-change-in-crop-yield-from-irrigation" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> PCal/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> PCal/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>Crop.initial_crop_yield*Crop.effect_of_irrigation_on_crop_yield
 </code></pre></div></p>
 <h3 id="crop-change-in-crop-yield-from-fertilizer-use">Crop.change_in_crop_yield_from_fertilizer_use<a class="headerlink" href="#crop-change-in-crop-yield-from-fertilizer-use" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span></p>
-<p><strong>Units:</strong> PCal/(Mha<em>year)  ·  </em><em>Dimensions:</em>* Run</p>
+<p><strong>Units:</strong> PCal/(Mha*year)  ·  <strong>Dimensions:</strong> Run</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>Crop.initial_crop_yield*Crop.effect_of_fertilizer_use_on_crop_yield
 </code></pre></div></p>
@@ -6247,13 +6247,13 @@ Food and Agriculture Organization of the United Nations (2023)</p>
 </code></pre></div></p>
 <h3 id="crop-fertilizer-use-crop-yield-parameter">Crop.fertilizer_use_crop_yield_parameter<a class="headerlink" href="#crop-fertilizer-use-crop-yield-parameter" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span> <span class="tag tag-internal-calibration-parameter" title="A parameter tuned internally so the model reproduces historical data.">Internal calibration parameter</span></p>
-<p><strong>Units:</strong> 1/MtN<em>year  ·  </em><em>Dimensions:</em><em> Run  ·  </em><em>Range:</em>* 0.00001 – 0.1</p>
+<p><strong>Units:</strong> 1/MtN*year  ·  <strong>Dimensions:</strong> Run  ·  <strong>Range:</strong> 0.00001 – 0.1</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a>[1] = 0.000513097304858143
 </code></pre></div></p>
 <h3 id="crop-initial-crop-yield">Crop.initial_crop_yield<a class="headerlink" href="#crop-initial-crop-yield" title="Permanent link">&para;</a></h3>
 <p><span class="badge badge-aux">aux</span> <span class="tag tag-internal-calibration-parameter" title="A parameter tuned internally so the model reproduces historical data.">Internal calibration parameter</span></p>
-<p><strong>Units:</strong> PCal/(Mha<em>year)  ·  </em><em>Dimensions:</em><em> Run  ·  </em><em>Range:</em>* 5.5 – 6.5</p>
+<p><strong>Units:</strong> PCal/(Mha*year)  ·  <strong>Dimensions:</strong> Run  ·  <strong>Range:</strong> 5.5 – 6.5</p>
 <p><em>Equation:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a>[1] = 5.88413994663173
 </code></pre></div></p>
@@ -6924,10 +6924,10 @@ Food and Agriculture Organization of the United Nations (2023)</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
     
   </body>
